@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="homesystem">
+    <output-path>$PROJECT_DIR$/../../server/plugins</output-path>
+    <root id="archive" name="homesystem.jar">
+      <element id="module-output" name="home" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

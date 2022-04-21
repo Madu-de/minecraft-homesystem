@@ -1,0 +1,16 @@
+name: Homesystem
+author: Madu
+version: 1.5
+main: de.madu.home.main.Main
+
+commands:
+  sethome:
+    description: Setze dein Home §a/sethome <NAME>
+  home:
+    description: Teleportiere dich zu deinem Home §a/home <NAME>
+  delhome:
+    description: Lösche dein Home §a/delhome <NAME>
+  homes:
+    description: Zeige alle deine Homes an §a/homes
+  delallhomes:
+    description: Lösche alle deine Homes §a/delallhomes
