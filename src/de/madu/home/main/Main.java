@@ -14,6 +14,7 @@ public class Main extends JavaPlugin {
 
         System.out.println("""
                   
+                                                     GNU Affero General Public License v3.0\s
                   _    _                                     _                    _              __  __           _      \s
                  | |  | |                                   | |                  | |            |  \\/  |         | |     \s
                  | |__| | ___  _ __ ___   ___  ___ _   _ ___| |_ ___ _ __ ___    | |__  _   _   | \\  / | __ _  __| |_   _\s
@@ -31,9 +32,6 @@ public class Main extends JavaPlugin {
         Objects.requireNonNull(getCommand("home")).setExecutor(new HomeCommand());
         Objects.requireNonNull(getCommand("delhome")).setExecutor(new DelHomeCommand());
         Objects.requireNonNull(getCommand("delallhomes")).setExecutor(new DelAllHomeCommand());
-
-        Bukkit.broadcastMessage("Test");
-
     }
 
     public static Main getPlugin() { return plugin; }
